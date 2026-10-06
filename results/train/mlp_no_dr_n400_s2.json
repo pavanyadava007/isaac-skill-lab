@@ -1,0 +1,29 @@
+{
+  "run": "mlp_no_dr_n400_s2",
+  "kind": "mlp",
+  "data": "no_dr",
+  "n_demos": 400,
+  "seed": 2,
+  "steps": 20000,
+  "batch": 256,
+  "lr": 0.001,
+  "train_samples": 54330,
+  "train_time_s": 30.681592023998746,
+  "params": 137221,
+  "final_train_loss": 0.02639247290790081,
+  "valid_loss": 0.08507101237773895,
+  "valid_parts": {
+    "mse": 0.06010805442929268,
+    "bce": 0.024962956085801125,
+    "grip_acc": 0.9951295256614685
+  },
+  "train_parts": {
+    "mse": 0.025656063109636307,
+    "bce": 0.0007364104967564344,
+    "grip_acc": 0.9999499917030334
+  },
+  "valid_demos": 100,
+  "device": "NVIDIA L4",
+  "_setup": "NVIDIA L4, Isaac Sim 4.5 / Isaac Lab 2.1.1, simulation only, no real robot",
+  "_host_python": "3.10.21"
+}

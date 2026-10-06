@@ -1,0 +1,62 @@
+{
+  "randomization": {
+    "name": "dr",
+    "cube_x": [
+      0.4,
+      0.6
+    ],
+    "cube_y": [
+      -0.2,
+      0.2
+    ],
+    "cube_yaw_deg": [
+      -45.0,
+      45.0
+    ],
+    "target_x": [
+      0.4,
+      0.6
+    ],
+    "target_y": [
+      -0.25,
+      0.25
+    ],
+    "min_cube_target_dist": 0.12,
+    "cube_size": [
+      0.04,
+      0.06
+    ],
+    "cube_mass": [
+      0.05,
+      0.3
+    ],
+    "friction": [
+      0.5,
+      1.2
+    ]
+  },
+  "attempted": 1024,
+  "kept": 1004,
+  "kept_rate": 0.98046875,
+  "num_envs": 1024,
+  "exec_noise": {
+    "pos_std_m_per_step": 0.006,
+    "yaw_std_rad_per_step": 0.03
+  },
+  "demo_length_steps": {
+    "mean": 134.63346613545818,
+    "min": 95,
+    "max": 200
+  },
+  "expert_time_to_success_s": {
+    "mean": 5.4862051792828685,
+    "median": 5.300000000000001
+  },
+  "demos_with_regrasp": 48,
+  "samples": 135172,
+  "rollout_wall_s": 6.881301641000391,
+  "total_wall_s": 21.34511423110962,
+  "file": "data/demos_dr.hdf5",
+  "_setup": "NVIDIA L4, Isaac Sim 4.5 / Isaac Lab 2.1.1, simulation only, no real robot",
+  "_host_python": "3.10.21"
+}

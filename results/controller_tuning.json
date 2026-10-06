@@ -1,0 +1,254 @@
+{
+  "closed_loop_expert": [
+    {
+      "stiffness": 80.0,
+      "damping": 4.0,
+      "dls_lambda": 0.05,
+      "n": 100,
+      "successes": 0,
+      "rate": 0.0,
+      "ci95": [
+        3.469446951953614e-18,
+        0.03699349820698568
+      ],
+      "time_to_success_s": {
+        "mean": NaN,
+        "std": NaN,
+        "median": NaN
+      }
+    },
+    {
+      "stiffness": 400.0,
+      "damping": 40.0,
+      "dls_lambda": 0.05,
+      "n": 100,
+      "successes": 66,
+      "rate": 0.66,
+      "ci95": [
+        0.5627772885472462,
+        0.7453847920265184
+      ],
+      "time_to_success_s": {
+        "mean": 4.059090909090908,
+        "std": 1.1699740000697285,
+        "median": 3.6500000000000004
+      }
+    },
+    {
+      "stiffness": 400.0,
+      "damping": 80.0,
+      "dls_lambda": 0.05,
+      "n": 100,
+      "successes": 100,
+      "rate": 1.0,
+      "ci95": [
+        0.9630065017930143,
+        1.0
+      ],
+      "time_to_success_s": {
+        "mean": 4.766000000000001,
+        "std": 0.4175372722732354,
+        "median": 4.75
+      }
+    },
+    {
+      "stiffness": 1000.0,
+      "damping": 100.0,
+      "dls_lambda": 0.05,
+      "n": 100,
+      "successes": 99,
+      "rate": 0.99,
+      "ci95": [
+        0.9455138038212946,
+        0.9982325679358593
+      ],
+      "time_to_success_s": {
+        "mean": 3.205555555555555,
+        "std": 0.4183842151347524,
+        "median": 3.1500000000000004
+      }
+    },
+    {
+      "stiffness": 1000.0,
+      "damping": 200.0,
+      "dls_lambda": 0.05,
+      "n": 100,
+      "successes": 100,
+      "rate": 1.0,
+      "ci95": [
+        0.9630065017930143,
+        1.0
+      ],
+      "time_to_success_s": {
+        "mean": 4.717500000000002,
+        "std": 0.45723007713222835,
+        "median": 4.75
+      }
+    }
+  ],
+  "protocol": [],
+  "physics_dt_s": 0.01,
+  "chosen": {
+    "ik_method": "dls",
+    "dls_lambda": 0.05,
+    "arm_stiffness": 400.0,
+    "arm_damping": 80.0,
+    "finger_stiffness": 2000.0,
+    "finger_damping": 100.0,
+    "extra": {}
+  },
+  "rows": [
+    {
+      "dls_lambda": 0.01,
+      "stiffness": 80.0,
+      "damping": 4.0,
+      "rise_time_10_90_s": 0.18,
+      "overshoot_mm": 17.97178077697754,
+      "settled_error_mm": 28.391754150390625,
+      "ramp_rms_error_mm": 66.83731842041016,
+      "ramp_final_lag_mm": 51.815311431884766
+    },
+    {
+      "dls_lambda": 0.01,
+      "stiffness": 400.0,
+      "damping": 40.0,
+      "rise_time_10_90_s": 0.21,
+      "overshoot_mm": 0.007148026023060083,
+      "settled_error_mm": 0.007137688342481852,
+      "ramp_rms_error_mm": 39.262596130371094,
+      "ramp_final_lag_mm": 37.53113555908203
+    },
+    {
+      "dls_lambda": 0.01,
+      "stiffness": 400.0,
+      "damping": 80.0,
+      "rise_time_10_90_s": 0.41000000000000003,
+      "overshoot_mm": 0.0,
+      "settled_error_mm": 0.08212693780660629,
+      "ramp_rms_error_mm": 59.754703521728516,
+      "ramp_final_lag_mm": 76.24993896484375
+    },
+    {
+      "dls_lambda": 0.01,
+      "stiffness": 1000.0,
+      "damping": 100.0,
+      "rise_time_10_90_s": 0.22,
+      "overshoot_mm": 0.0,
+      "settled_error_mm": 0.013154767453670502,
+      "ramp_rms_error_mm": 35.46389389038086,
+      "ramp_final_lag_mm": 38.113826751708984
+    },
+    {
+      "dls_lambda": 0.01,
+      "stiffness": 1000.0,
+      "damping": 200.0,
+      "rise_time_10_90_s": 0.43,
+      "overshoot_mm": 0.0,
+      "settled_error_mm": 0.07641945034265518,
+      "ramp_rms_error_mm": 57.233909606933594,
+      "ramp_final_lag_mm": 74.25636291503906
+    },
+    {
+      "dls_lambda": 0.05,
+      "stiffness": 80.0,
+      "damping": 4.0,
+      "rise_time_10_90_s": 0.18,
+      "overshoot_mm": 18.581769943237305,
+      "settled_error_mm": 27.206632614135742,
+      "ramp_rms_error_mm": 67.104736328125,
+      "ramp_final_lag_mm": 51.97639083862305
+    },
+    {
+      "dls_lambda": 0.05,
+      "stiffness": 400.0,
+      "damping": 40.0,
+      "rise_time_10_90_s": 0.21,
+      "overshoot_mm": 0.0055801644921302795,
+      "settled_error_mm": 0.00742080993950367,
+      "ramp_rms_error_mm": 39.69844436645508,
+      "ramp_final_lag_mm": 38.25568771362305
+    },
+    {
+      "dls_lambda": 0.05,
+      "stiffness": 400.0,
+      "damping": 80.0,
+      "rise_time_10_90_s": 0.43,
+      "overshoot_mm": 0.0,
+      "settled_error_mm": 0.10929393768310547,
+      "ramp_rms_error_mm": 60.23221969604492,
+      "ramp_final_lag_mm": 77.17539978027344
+    },
+    {
+      "dls_lambda": 0.05,
+      "stiffness": 1000.0,
+      "damping": 100.0,
+      "rise_time_10_90_s": 0.23,
+      "overshoot_mm": 0.0,
+      "settled_error_mm": 0.009717104025185108,
+      "ramp_rms_error_mm": 35.899436950683594,
+      "ramp_final_lag_mm": 38.78693389892578
+    },
+    {
+      "dls_lambda": 0.05,
+      "stiffness": 1000.0,
+      "damping": 200.0,
+      "rise_time_10_90_s": 0.45,
+      "overshoot_mm": 0.0,
+      "settled_error_mm": 0.10384014248847961,
+      "ramp_rms_error_mm": 57.72285079956055,
+      "ramp_final_lag_mm": 75.16830444335938
+    },
+    {
+      "dls_lambda": 0.2,
+      "stiffness": 80.0,
+      "damping": 4.0,
+      "rise_time_10_90_s": 0.21,
+      "overshoot_mm": 25.250484466552734,
+      "settled_error_mm": 10.122554779052734,
+      "ramp_rms_error_mm": 70.73605346679688,
+      "ramp_final_lag_mm": 61.18680191040039
+    },
+    {
+      "dls_lambda": 0.2,
+      "stiffness": 400.0,
+      "damping": 40.0,
+      "rise_time_10_90_s": 0.32,
+      "overshoot_mm": 0.0,
+      "settled_error_mm": 0.028134554624557495,
+      "ramp_rms_error_mm": 45.821041107177734,
+      "ramp_final_lag_mm": 48.985076904296875
+    },
+    {
+      "dls_lambda": 0.2,
+      "stiffness": 400.0,
+      "damping": 80.0,
+      "rise_time_10_90_s": 0.71,
+      "overshoot_mm": 0.0,
+      "settled_error_mm": 1.8291083574295044,
+      "ramp_rms_error_mm": 66.50399780273438,
+      "ramp_final_lag_mm": 89.57613372802734
+    },
+    {
+      "dls_lambda": 0.2,
+      "stiffness": 1000.0,
+      "damping": 100.0,
+      "rise_time_10_90_s": 0.35000000000000003,
+      "overshoot_mm": 0.0,
+      "settled_error_mm": 0.035065632313489914,
+      "ramp_rms_error_mm": 42.038360595703125,
+      "ramp_final_lag_mm": 48.7708625793457
+    },
+    {
+      "dls_lambda": 0.2,
+      "stiffness": 1000.0,
+      "damping": 200.0,
+      "rise_time_10_90_s": 0.72,
+      "overshoot_mm": 0.0,
+      "settled_error_mm": 1.8610684871673584,
+      "ramp_rms_error_mm": 64.17218780517578,
+      "ramp_final_lag_mm": 87.45536804199219
+    }
+  ],
+  "_setup": "NVIDIA L4, Isaac Sim 4.5 / Isaac Lab 2.1.1, simulation only, no real robot",
+  "_host_python": "3.10.21"
+}

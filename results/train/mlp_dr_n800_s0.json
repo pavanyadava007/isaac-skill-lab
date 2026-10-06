@@ -1,0 +1,29 @@
+{
+  "run": "mlp_dr_n800_s0",
+  "kind": "mlp",
+  "data": "dr",
+  "n_demos": 800,
+  "seed": 0,
+  "steps": 20000,
+  "batch": 256,
+  "lr": 0.001,
+  "train_samples": 108016,
+  "train_time_s": 30.280060257000514,
+  "params": 137221,
+  "final_train_loss": 0.03694339841604233,
+  "valid_loss": 0.05274977535009384,
+  "valid_parts": {
+    "mse": 0.0483953133225441,
+    "bce": 0.004354462027549744,
+    "grip_acc": 0.9980407953262329
+  },
+  "train_parts": {
+    "mse": 0.035402100533246994,
+    "bce": 0.0015412978827953339,
+    "grip_acc": 0.9996999502182007
+  },
+  "valid_demos": 100,
+  "device": "NVIDIA L4",
+  "_setup": "NVIDIA L4, Isaac Sim 4.5 / Isaac Lab 2.1.1, simulation only, no real robot",
+  "_host_python": "3.10.21"
+}

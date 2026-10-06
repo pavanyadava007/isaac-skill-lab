@@ -1,0 +1,29 @@
+{
+  "run": "rnn_dr_n400_s2",
+  "kind": "rnn",
+  "data": "dr",
+  "n_demos": 400,
+  "seed": 2,
+  "steps": 20000,
+  "batch": 256,
+  "lr": 0.001,
+  "train_samples": 50348,
+  "train_time_s": 52.38835480099988,
+  "params": 795141,
+  "final_train_loss": 0.004612020682543516,
+  "valid_loss": 0.050412144511938095,
+  "valid_parts": {
+    "mse": 0.030711330473423004,
+    "bce": 0.01970081403851509,
+    "grip_acc": 0.9967423677444458
+  },
+  "train_parts": {
+    "mse": 0.004560014232993126,
+    "bce": 5.20064786542207e-05,
+    "grip_acc": 0.9999949932098389
+  },
+  "valid_demos": 100,
+  "device": "NVIDIA L4",
+  "_setup": "NVIDIA L4, Isaac Sim 4.5 / Isaac Lab 2.1.1, simulation only, no real robot",
+  "_host_python": "3.10.21"
+}

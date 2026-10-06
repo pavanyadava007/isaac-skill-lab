@@ -1,0 +1,127 @@
+{
+  "world": "dr",
+  "results": {
+    "mlp_dr_n100_s0": {
+      "nominal": {
+        "episodes": 200,
+        "failures": 26,
+        "never_lifted": 22,
+        "lifted_not_on_coaster": 2,
+        "on_coaster_not_released_or_not_resting": 2,
+        "failures_stalled_last_2s": 18,
+        "stall_definition": "mean TCP motion < 1 mm per policy step over the last 2 s"
+      },
+      "obs_noise_5mm": {
+        "episodes": 200,
+        "failures": 12,
+        "never_lifted": 6,
+        "lifted_not_on_coaster": 1,
+        "on_coaster_not_released_or_not_resting": 5,
+        "failures_stalled_last_2s": 0,
+        "stall_definition": "mean TCP motion < 1 mm per policy step over the last 2 s"
+      }
+    },
+    "mlp_dr_n100_s1": {
+      "nominal": {
+        "episodes": 200,
+        "failures": 25,
+        "never_lifted": 18,
+        "lifted_not_on_coaster": 3,
+        "on_coaster_not_released_or_not_resting": 4,
+        "failures_stalled_last_2s": 16,
+        "stall_definition": "mean TCP motion < 1 mm per policy step over the last 2 s"
+      },
+      "obs_noise_5mm": {
+        "episodes": 200,
+        "failures": 11,
+        "never_lifted": 5,
+        "lifted_not_on_coaster": 3,
+        "on_coaster_not_released_or_not_resting": 3,
+        "failures_stalled_last_2s": 1,
+        "stall_definition": "mean TCP motion < 1 mm per policy step over the last 2 s"
+      }
+    },
+    "mlp_dr_n100_s2": {
+      "nominal": {
+        "episodes": 200,
+        "failures": 23,
+        "never_lifted": 17,
+        "lifted_not_on_coaster": 4,
+        "on_coaster_not_released_or_not_resting": 2,
+        "failures_stalled_last_2s": 14,
+        "stall_definition": "mean TCP motion < 1 mm per policy step over the last 2 s"
+      },
+      "obs_noise_5mm": {
+        "episodes": 200,
+        "failures": 14,
+        "never_lifted": 13,
+        "lifted_not_on_coaster": 0,
+        "on_coaster_not_released_or_not_resting": 1,
+        "failures_stalled_last_2s": 0,
+        "stall_definition": "mean TCP motion < 1 mm per policy step over the last 2 s"
+      }
+    },
+    "mlp_no_dr_n400_s0": {
+      "nominal": {
+        "episodes": 200,
+        "failures": 62,
+        "never_lifted": 58,
+        "lifted_not_on_coaster": 1,
+        "on_coaster_not_released_or_not_resting": 3,
+        "failures_stalled_last_2s": 60,
+        "stall_definition": "mean TCP motion < 1 mm per policy step over the last 2 s"
+      },
+      "obs_noise_5mm": {
+        "episodes": 200,
+        "failures": 1,
+        "never_lifted": 0,
+        "lifted_not_on_coaster": 1,
+        "on_coaster_not_released_or_not_resting": 0,
+        "failures_stalled_last_2s": 1,
+        "stall_definition": "mean TCP motion < 1 mm per policy step over the last 2 s"
+      }
+    },
+    "mlp_no_dr_n400_s1": {
+      "nominal": {
+        "episodes": 200,
+        "failures": 32,
+        "never_lifted": 26,
+        "lifted_not_on_coaster": 5,
+        "on_coaster_not_released_or_not_resting": 1,
+        "failures_stalled_last_2s": 30,
+        "stall_definition": "mean TCP motion < 1 mm per policy step over the last 2 s"
+      },
+      "obs_noise_5mm": {
+        "episodes": 200,
+        "failures": 3,
+        "never_lifted": 1,
+        "lifted_not_on_coaster": 1,
+        "on_coaster_not_released_or_not_resting": 1,
+        "failures_stalled_last_2s": 1,
+        "stall_definition": "mean TCP motion < 1 mm per policy step over the last 2 s"
+      }
+    },
+    "mlp_no_dr_n400_s2": {
+      "nominal": {
+        "episodes": 200,
+        "failures": 58,
+        "never_lifted": 53,
+        "lifted_not_on_coaster": 1,
+        "on_coaster_not_released_or_not_resting": 4,
+        "failures_stalled_last_2s": 54,
+        "stall_definition": "mean TCP motion < 1 mm per policy step over the last 2 s"
+      },
+      "obs_noise_5mm": {
+        "episodes": 200,
+        "failures": 2,
+        "never_lifted": 1,
+        "lifted_not_on_coaster": 0,
+        "on_coaster_not_released_or_not_resting": 1,
+        "failures_stalled_last_2s": 0,
+        "stall_definition": "mean TCP motion < 1 mm per policy step over the last 2 s"
+      }
+    }
+  },
+  "_setup": "NVIDIA L4, Isaac Sim 4.5 / Isaac Lab 2.1.1, simulation only, no real robot",
+  "_host_python": "3.10.21"
+}

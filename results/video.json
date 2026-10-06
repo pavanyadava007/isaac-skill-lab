@@ -1,0 +1,45 @@
+{
+  "policy": "mlp_dr_n800_s0",
+  "episodes": [
+    {
+      "seed": 1000000,
+      "success": true,
+      "time_to_success_s": 4.55,
+      "cube_size_m": 0.052221878598939425,
+      "cube_mass_kg": 0.06312537942808806,
+      "friction": 1.1948506748346235
+    },
+    {
+      "seed": 1000001,
+      "success": true,
+      "time_to_success_s": 5.6000000000000005,
+      "cube_size_m": 0.052221878598939425,
+      "cube_mass_kg": 0.1771481703695475,
+      "friction": 0.9553877298600133
+    },
+    {
+      "seed": 1000002,
+      "success": true,
+      "time_to_success_s": 5.75,
+      "cube_size_m": 0.052221878598939425,
+      "cube_mass_kg": 0.28139424149155046,
+      "friction": 1.1391091139395333
+    },
+    {
+      "seed": 1000003,
+      "success": true,
+      "time_to_success_s": 4.65,
+      "cube_size_m": 0.052221878598939425,
+      "cube_mass_kg": 0.2231783474335876,
+      "friction": 0.7016440279583431
+    }
+  ],
+  "fps": 20,
+  "frames": 600,
+  "mp4": "media/policy_rollouts.mp4",
+  "gif": "media/policy_rollouts.gif",
+  "mp4_bytes": 3121722,
+  "gif_bytes": 3284865,
+  "_setup": "NVIDIA L4, Isaac Sim 4.5 / Isaac Lab 2.1.1, simulation only, no real robot",
+  "_host_python": "3.10.21"
+}
